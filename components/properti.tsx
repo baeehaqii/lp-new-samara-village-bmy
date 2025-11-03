@@ -990,7 +990,7 @@ export default function Properties() {
 
                     <div className="modal-cta">
                       <Link
-                        href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Samara%20Village%20Bumiayu"
+                        href="https://wa.me/6281127010001?text=Halo,%20saya%20tertarik%20dengan%20properti%20Samara%20Village%20Bumiayu"
                         className="modal-cta-button"
                       >
                         Hubungi Kami

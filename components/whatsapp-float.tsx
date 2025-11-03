@@ -5,7 +5,7 @@ import { WhatsAppIcon } from "./icons"
 export default function WhatsAppFloat() {
   const handleClick = () => {
     // Replace with your WhatsApp number (format: country code + number without + or spaces)
-    const phoneNumber = "628170031130" // Example: Indonesian number
+    const phoneNumber = "6281127010001" // Example: Indonesian number
     const message = encodeURIComponent("Halo, saya tertarik dengan Samara Village Bumiayu")
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
   }
