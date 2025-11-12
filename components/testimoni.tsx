@@ -17,19 +17,19 @@ export default function Testimonials() {
     const testimonials: Testimonial[] = [
         {
             id: 1,
-            name: "Ibu Rossie",
-            location: "Pemalang, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435664/Screenshot_2025-08-17_at_19-59-13_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_t4hycn.png",
+            name: "Maharani",
+            location: "Bumiayu, Indonesia",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762656135/download_cszbzm.png",
             rating: 5,
-            text: "Saya sangat senang dengan pengalaman membeli rumah di Sapphire Pemalang. Tim marketing sangat membantu dan ramah. Prosesnya cepat dan mudah. Saya merasa sangat puas dengan rumah yang saya beli. Terima kasih Sapphire Grup!",
+            text: "Model rumahnya oke banget buat harga murah, prosesnya juga gampang dibantu banget sama marketingnya.",
         },
         {
             id: 2,
-            name: "Bapak Handy",
-            location: "Pemalang, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435663/Screenshot_2025-08-17_at_20-00-42_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_ybu2pd.png",
+            name: "Putra Haryanto",
+            location: "Bumiayu, Indonesia",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762656135/download_cszbzm.png",
             rating: 5,
-            text: "Saya sangat puas dengan pelayanan Sapphire di Pemalang. Tim marketing sangat profesional dan membantu saya menemukan rumah yang sesuai dengan kebutuhan keluarga. Lokasi perumahan juga strategis banget. Terima kasih Sapphire Griya Modern!",
+            text: "Samara Village Bumiayu menawarkan pengalaman tinggal yang luar biasa dengan lokasinya yang strategis tepat di Jalan Lingkar Bumiayu, menyediakan konektivitas yang sangat baik ke berbagai area perkotaan. Lokasinya memudahkan penghuni untuk mengakses rute-rute utama sambil menikmati lingkungan yang tenang dan jauh dari hiruk pikuk kota.",
         },
 
     ]

@@ -343,49 +343,46 @@ export default function Properties() {
     {
       id: 1,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761987800/Screenshot_2025-11-01_at_16.00.54_qdbdyq.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761986305/Screenshot_2025-11-01_at_15.35.25_nxi6ak.avif",
       name: "Tipe 36/66 Model 1",
-      price: "150.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "36",
       description:
-        "Tipe 36/66 Model 1 dengan luas bangunan 36 m² adalah pilihan sempurna untuk keluarga muda yang ingin memiliki rumah pertama. Desain modern dengan layout yang efisien untuk memaksimalkan setiap ruang dengan harga mulai dari 150 jutaan.",
+        "Tipe 36/66 Model 1 dengan luas bangunan 36 m² adalah pilihan sempurna untuk keluarga muda yang ingin memiliki rumah pertama. Desain modern dengan layout yang efisien untuk memaksimalkan setiap ruang.",
       certificate: "SHM",
     },
     {
       id: 2,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761987801/Screenshot_2025-11-01_at_16.01.02_niewqu.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761986307/Screenshot_2025-11-01_at_15.35.39_bfgbkt.avif",
       name: "Tipe 36/66 Model 2",
-      price: "165.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "36",
       description:
-        "Tipe 36/66 Model 2 dengan luas bangunan 36 m² menawarkan ruang yang nyaman untuk keluarga muda. Dilengkapi dengan 2 kamar tidur dan desain modern yang optimal untuk kebutuhan keluarga dengan investasi terjangkau.",
+        "Tipe 36/66 Model 2 dengan luas bangunan 36 m² menawarkan ruang yang nyaman untuk keluarga muda. Dilengkapi dengan 2 kamar tidur dan desain modern yang optimal untuk kebutuhan keluarga.",
       certificate: "SHM",
     },
     {
       id: 3,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761987801/Screenshot_2025-11-01_at_16.01.17_cmiqpm.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761986307/Screenshot_2025-11-01_at_15.35.48_idvlmd.avif",
       name: "Tipe 36/66 Model 3",
-      price: "175.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "36",
       description:
-        "Tipe 36/66 Model 3 dengan luas bangunan 36 m² memberikan kenyamanan maksimal dengan ruang yang lebih luas. Ideal untuk keluarga muda yang menginginkan lebih banyak ruang hidup dengan lokasi strategis dan harga terjangkau.",
+        "Tipe 36/66 Model 3 dengan luas bangunan 36 m² memberikan kenyamanan maksimal dengan ruang yang lebih luas. Ideal untuk keluarga muda yang menginginkan lebih banyak ruang hidup dengan lokasi strategis.",
       certificate: "SHM",
     },
   ]
@@ -422,7 +419,7 @@ export default function Properties() {
     images: string[]
     floorPlan: string
     name: string
-    price: string
+    price?: string
     bedrooms: number
     bathrooms: number
     area: string
@@ -984,9 +981,6 @@ export default function Properties() {
                         </div>
                       </div>
                     </div>
-
-                    <h3 className="modal-subtitle">Harga</h3>
-                    <div className="modal-price">Rp {selectedProperty.price}</div>
 
                     <div className="modal-cta">
                       <Link
