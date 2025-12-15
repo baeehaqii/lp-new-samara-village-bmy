@@ -17,18 +17,18 @@ export default function Hero() {
 
   const heroSlides = [
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764522444/Salinan_tipe_32_66_1_dhnkjr.avif",
       title: "Rumah Pertama yang Dekat Segalanya",
       description:
         "Stasiun, sekolah, dan pusat kota hanya beberapa menit.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764522439/Salinan_tipe_32_standar_2_nvt5wd.avif",
       title: "Lingkungan Asri, Pemandangan Hijau Setiap Hari",
       description: "Dekat kota, namun tetap tenang dan nyaman.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825387/2_6_-_Photo.jpeg_sbnhu8.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764522415/Salinan_tipe_32_77_2_jjtyhl.avif",
       title: "Desain Minimalis dan Fungsional",
       description: "Setiap ruang dirancang efisien, mendukung gaya hidup modern keluarga muda.",
     },

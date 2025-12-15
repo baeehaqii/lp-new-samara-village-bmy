@@ -343,8 +343,8 @@ export default function Properties() {
     {
       id: 1,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1764522435/Salinan_tipe_36_66_standar_rvjfvr.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1764522442/Salinan_tipe_36_66_Model_4_2_nrk5kh.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761986305/Screenshot_2025-11-01_at_15.35.25_nxi6ak.avif",
       name: "Tipe 36/66 Model 1",
@@ -358,8 +358,8 @@ export default function Properties() {
     {
       id: 2,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1764522442/Salinan_tipe_36_66_Model_4_2_nrk5kh.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1764522440/Salinan_tipe_36_66_Model_4_1_zdgxor.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761986307/Screenshot_2025-11-01_at_15.35.39_bfgbkt.avif",
       name: "Tipe 36/66 Model 2",
@@ -373,8 +373,8 @@ export default function Properties() {
     {
       id: 3,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1764522435/Salinan_tipe_36_66_standar_rvjfvr.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1764522442/Salinan_tipe_36_66_Model_4_2_nrk5kh.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761986307/Screenshot_2025-11-01_at_15.35.48_idvlmd.avif",
       name: "Tipe 36/66 Model 3",
@@ -722,7 +722,7 @@ export default function Properties() {
           <div className="specifications-container">
             <div className="specifications-image">
               <Image
-                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif"
+                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764522444/Salinan_tipe_32_66_1_dhnkjr.avif"
                 alt="Spesifikasi Rumah"
                 width={600}
                 height={800}

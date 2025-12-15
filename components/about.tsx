@@ -27,7 +27,7 @@ export default function About() {
             {/* Container gambar */}
             <div className="about-image-container">
               <Image
-                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif"
+                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764522415/Salinan_tipe_32_77_2_jjtyhl.avif"
                 alt="Samara Village Bumiayu"
                 width={600}
                 height={450}
@@ -97,7 +97,7 @@ export default function About() {
               <h2 className="modal-title">Samara Village Bumiayu</h2>
               <div className="modal-image">
                 <Image
-                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif"
+                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764522439/Salinan_tipe_32_standar_1_pzso4t.avif"
                   alt="Samara Village Bumiayu"
                   width={700}
                   height={400}
