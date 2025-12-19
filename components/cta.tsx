@@ -1,7 +1,20 @@
+"use client"
+
 import { Phone, ClipboardList, Percent } from "lucide-react"
 import Link from "next/link"
+import { trackWhatsAppClick, trackPromoClick } from "@/lib/tiktok-pixel"
 
 export default function CallToAction() {
+  // CTA "Whatsapp Kami" button - Primary action
+  const handleWhatsAppClick = () => {
+    trackWhatsAppClick('cta-whatsapp', 'contact')
+  }
+
+  // CTA "Dapatkan Promo" button - Secondary action
+  const handlePromoClick = () => {
+    trackPromoClick('cta-promo')
+  }
+
   return (
     <section id="cta" className="cta-section">
       <div className="container">
@@ -17,6 +30,7 @@ export default function CallToAction() {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-button cta-button-primary"
+              onClick={handleWhatsAppClick}
             >
               <Phone className="cta-button-icon" />
               Whatsapp Kami
@@ -27,6 +41,7 @@ export default function CallToAction() {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-button cta-button-outline"
+              onClick={handlePromoClick}
             >
               <Percent className="cta-button-icon" />
               Dapatkan Promo
